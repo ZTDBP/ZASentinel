@@ -13,10 +13,10 @@ package metrics
 
 import (
 	"context"
+	"github.com/ztalab/zta-tools/influxdb"
+	"github.com/ztalab/zta-tools/logger"
 	"github.com/ztdbp/ZASentinel/internal/config"
 	"github.com/ztdbp/ZASentinel/pkg/errors"
-	"github.com/ztdbp/ZASentinel/pkg/influxdb"
-	"github.com/ztdbp/ZASentinel/pkg/logger"
 )
 
 const (

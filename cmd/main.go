@@ -18,7 +18,7 @@ import (
 	"os"
 
 	"github.com/urfave/cli/v2"
-	"github.com/ztdbp/ZASentinel/pkg/logger"
+	"github.com/ztalab/zta-tools/logger"
 )
 
 var VERSION = "0.0.0"

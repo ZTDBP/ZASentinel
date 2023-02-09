@@ -15,9 +15,9 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/ztalab/zta-tools/logger"
 	"io/ioutil"
 	"runtime"
-	"github.com/ztdbp/ZASentinel/pkg/logger"
 )
 
 var (

@@ -13,8 +13,8 @@ package event
 
 import (
 	"context"
+	"github.com/ztalab/zta-tools/logger"
 	"github.com/ztdbp/ZASentinel/internal/schema"
-	"github.com/ztdbp/ZASentinel/pkg/logger"
 	"github.com/ztdbp/ZASentinel/pkg/pconst"
 	"github.com/ztdbp/ZASentinel/pkg/util/json"
 

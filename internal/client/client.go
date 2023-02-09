@@ -14,7 +14,7 @@ package client
 import (
 	"context"
 	"github.com/urfave/cli/v2"
-	"github.com/ztdbp/ZASentinel/pkg/logger"
+	"github.com/ztalab/zta-tools/logger"
 	"os"
 	"os/signal"
 	"syscall"

@@ -15,7 +15,7 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 	"errors"
-	"github.com/ztdbp/ZASentinel/pkg/certificate"
+	"github.com/ztalab/zta-tools/attrmgr"
 	"github.com/ztdbp/ZASentinel/pkg/util"
 )
 
@@ -49,7 +49,7 @@ func InitCert(certData []byte) (*BasicCertConf, map[string]interface{}, error) {
 	basicConf := &BasicCertConf{}
 
 	// parse attr
-	mgr := certificate.New()
+	mgr := attrmgr.New()
 	attr, err := mgr.GetAttributesFromCert(cert)
 	if err != nil {
 		return nil, nil, ErrCertParse

@@ -12,15 +12,15 @@
 package initer
 
 import (
+	"github.com/ztalab/zta-tools/logger"
 	"github.com/ztdbp/ZASentinel/internal/config"
-	"github.com/ztdbp/ZASentinel/pkg/logger"
 	"os"
 	"path/filepath"
 
 	"github.com/sirupsen/logrus"
 
-	loggerhook "github.com/ztdbp/ZASentinel/pkg/logger/hook"
-	loggerredishook "github.com/ztdbp/ZASentinel/pkg/logger/hook/redis"
+	loggerhook "github.com/ztalab/zta-tools/logger/hook"
+	loggerredishook "github.com/ztalab/zta-tools/logger/hook/redis"
 )
 
 // InitLogger initialize the log module

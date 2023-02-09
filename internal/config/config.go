@@ -13,8 +13,8 @@ package config
 
 import (
 	"encoding/base64"
-	"github.com/ztdbp/ZASentinel/pkg/influxdb"
-	"github.com/ztdbp/ZASentinel/pkg/logger"
+	"github.com/ztalab/zta-tools/influxdb"
+	"github.com/ztalab/zta-tools/logger"
 	"github.com/ztdbp/ZASentinel/pkg/util/json"
 	"io/ioutil"
 	"net/http"
