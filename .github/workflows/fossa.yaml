@@ -17,7 +17,7 @@ jobs:
   fossa-scan:
     runs-on: ubuntu-latest
     env:
-      FOSSA_API_KEY: 41d62718405eaeefefefae7ef9add8c0 # This is a push-only token that is safe to be exposed.
+      FOSSA_API_KEY: c8d31a871b00cd77305abbcd838868e3 # This is a push-only token that is safe to be exposed.
     steps:
       - name: "Checkout code"
         uses: actions/checkout@v2
